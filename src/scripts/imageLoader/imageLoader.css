@@ -1,0 +1,38 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ocr-button {
+  width: 6rem;
+  height: 2rem;
+  color: white;
+  background: #3f4257;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.ocr-button:hover {
+  transform: scale(1.1);
+}
+
+.ocr-list {
+  background: white;
+  max-width: 50%;
+  border-radius: 1rem;
+  list-style-type: none;
+  margin: 2rem;
+}
+
+.ocr-element {
+  color: #3f4257;
+  margin: 1rem;
+  padding: 1rem;
+}
